@@ -1,0 +1,41 @@
+body{
+    font: Arial, sans-serif;
+    background-color: #ffffe6;
+}
+.search{
+    text-decoration: none;
+}
+table {
+  width:100%;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+h1, h3{
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.aa{
+    font-weight: bold
+}
+.editbtn{
+    background-color: #ccebff;
+}
+.deletebtn{
+    background-color: #ffb3b3;
+}
